@@ -1,19 +1,4 @@
-# starter
-
-## readme
-* https://blog.kulturbanause.de/2014/09/responsive-images-srcset-sizes-adaptive/
-* https://css-tricks.com/responsive-images-youre-just-changing-resolutions-use-srcset/
-* https://cloudfour.com/thinks/responsive-images-101-definitions/
-* https://tomroth.com.au/dpr/
-
-## tools
-https://www.mydevice.io/
-
 # main menu
-
-## readme:
-* https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images
-* https://salferrarello.com/responsive-images-srcset/
 
 ## browser suppord
 * https://caniuse.com/?search=srcset
@@ -66,3 +51,16 @@ For this example the screen width on all devices is reduced to 412px.
 * http://adaptive-images.com/
 * https://blog.assistancy.be/blog/reponsive-images-bootstrap-wordpress
 * 
+
+# starter
+
+## readme
+* https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images
+* https://salferrarello.com/responsive-images-srcset/
+* https://blog.kulturbanause.de/2014/09/responsive-images-srcset-sizes-adaptive/
+* https://css-tricks.com/responsive-images-youre-just-changing-resolutions-use-srcset/
+* https://cloudfour.com/thinks/responsive-images-101-definitions/
+* https://tomroth.com.au/dpr/
+
+## tools
+https://www.mydevice.io/
