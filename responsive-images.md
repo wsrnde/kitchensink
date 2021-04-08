@@ -35,7 +35,7 @@ The Device Pixel Ratio is a measure of how many pixels a screen will fit into a 
 * the majority of mobile devices have a DPR of 2 or higher (google nexus has a DPR of 3.5).
 
 ### Example 1:
-This image has no default (src is empty). Depending on the current screen width and the DRP of the screen, the browser will pick one of the images provided.
+This image has no default (src is empty). scrset lists 4 different images
 
 ```
 <img 
@@ -48,20 +48,18 @@ This image has no default (src is empty). Depending on the current screen width 
 >
 ```
 
+For this example the screen width on all devices is reduced to 412px. 
+
+
 | Device | Thinkpad L520 Laptop | iMac (Retina 5K, 2017) | Google Nexus 2 |
 |--------|-----------------------|------------------------|----------------|
 | DPR | 1.0 | 2.0 | 3.5|
+| Screen width | 412px | 412px | 412px |
+| DPR relative width | 412px | 816px | 1442px |
 | Result | ![DPR 1.0](https://user-images.githubusercontent.com/68318893/114030528-d1e7e600-987a-11eb-907f-5734adde0b09.jpeg) | ![DPR 2.0](https://user-images.githubusercontent.com/68318893/114030534-d2807c80-987a-11eb-887b-9f415771bc9e.jpeg) | ![DPR 3.5](https://user-images.githubusercontent.com/68318893/114030537-d3191300-987a-11eb-8b82-012c0251c978.jpeg) |
+| Notes | image xs is wide enought to cover the area | Image xs and sm are to small, but image md covers the area. | Image lg is the largest image available. Its too small, but we can't be picky here. |
 
 **Learned:** Initial image loaded corresponds to current screensize. If I have 992 or more px. The one loaded is 1200px wide. 
-
-At a screen width (window.innerWidth) of 412px the following images are loaded:
-
-| Device | Device Pixel Ratio (DPR) | DPR Relative Width in px | Image displayed | Notes |
-|--------|--------------------------|----------------|-----------------|-------|
-| Desktop | 1 | 412 | 576x576.jpg | image xs is wide enought to cover the area. |
-| iMac | 2 | 816 | 992x576.jpg | Image xs and sm are to small, but image md covers the area. |
-| Google Nexus | 3.5 | 1442 | 1200x576.jpg | Image lg is the largest image available. Its too small, but we can't be picky here. |
 
 # more solutions
 
