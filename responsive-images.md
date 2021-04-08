@@ -20,7 +20,7 @@ The srcset attribute offers the browser a list of images and also tells it what 
 
 Depending on the current screen width and the DPR (Device Pixel Ratio), the browser will pick one of theses images and download it. All other pictures are ignored.
 
-**Important** Depending on the DPR of a device, differnt images will be loaded at the same screen width.
+**Important** Depending on the DPR of a device, different images will be loaded at the same screen width.
 
 If the screen size is later changed (orientation change, windows resize), it will reconsider its decision and download another image that fits the curent environment.
 
@@ -42,7 +42,7 @@ DPR is a measure of how many pixels a screen will fit into a CSS pixel (in one d
      src=""
      srcset="uploads/2736/bilder/srcset/1200x576.png 1200w,
              uploads/2736/bilder/srcset/992x576.png   992w,
-             uploads/2736/bilder/srcset/768x576.png   768w,
+             uploads/2736/bilder/srcset/576x576.png   768w,
              uploads/2736/bilder/srcset/576x576.png   576w"
      alt="srcset Test"
 >
@@ -57,7 +57,7 @@ For this example the screen width on all devices is reduced to 412px.
 | Screen width | 412px | 412px | 412px |
 | DPR relative width | 412px | 816px | 1442px |
 | Result | ![DPR 1.0](https://user-images.githubusercontent.com/68318893/114030528-d1e7e600-987a-11eb-907f-5734adde0b09.jpeg) | ![DPR 2.0](https://user-images.githubusercontent.com/68318893/114030534-d2807c80-987a-11eb-887b-9f415771bc9e.jpeg) | ![DPR 3.5](https://user-images.githubusercontent.com/68318893/114030537-d3191300-987a-11eb-8b82-012c0251c978.jpeg) |
-| Notes | image xs is wide enought to cover the area | Image xs and sm are to small, but image md covers the area. | Image lg is the largest image available. Its too small, but we can't be picky here. |
+| Notes | 576x576.png is wide enought to cover the area | Image 576x576.png and 576x576.png are to small, but image 992x576.png covers the area. | Image 1200x576.png is the largest image available. Its too small, but we can't be picky here. |
 
 **Learned:** Initial image loaded corresponds to current screensize. If I have 992 or more px. The one loaded is 1200px wide. 
 
