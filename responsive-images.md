@@ -1,10 +1,15 @@
-# Introduction
+# Responsive images
 How (not) to use srcset and sizes. 
 
 ## version history
 * **2021-04-08** Initial commit. Needs more work.
 
+## Introduction
+Using two new attributes (srcset="" and sizes=""), modern browsers can download and present specific images depending on the current screen width.
+
 ## browser support
+<img width="1367" alt="grafik" src="https://user-images.githubusercontent.com/68318893/114036064-07430280-9880-11eb-841c-2e94ddd6d654.png">
+
 * https://caniuse.com/?search=srcset
 
 ## srcset Usage 
