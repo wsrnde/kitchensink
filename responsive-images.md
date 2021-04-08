@@ -61,7 +61,7 @@ For this example the screen width on all devices is reduced to 412px.
 
 **Learned:** Initial image loaded corresponds to current screensize. If I have 992 or more px. The one loaded is 1200px wide. 
 
-# more solutions
+# Bookmarks
 
 ## Further reading
 * https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images
