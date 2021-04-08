@@ -46,7 +46,7 @@ This image has no default (src is empty). The browser will pick one of four imag
 >
 ```
 
-| Device | Thinkpad Laptop DPR 1 | iMac (Retina 5K, 2017) | Google Nexus 2 |
+| Device | Thinkpad L520 Laptop | iMac (Retina 5K, 2017) | Google Nexus 2 |
 |--------|-----------------------|------------------------|----------------|
 | DPR | 1.0 | 2.0 | 3.5|
 | Result | ![DPR 1.0](https://user-images.githubusercontent.com/68318893/114030528-d1e7e600-987a-11eb-907f-5734adde0b09.jpeg) | ![DPR 2.0](https://user-images.githubusercontent.com/68318893/114030534-d2807c80-987a-11eb-887b-9f415771bc9e.jpeg) | ![DPR 3.5](https://user-images.githubusercontent.com/68318893/114030537-d3191300-987a-11eb-8b82-012c0251c978.jpeg) |
