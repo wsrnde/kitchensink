@@ -1,6 +1,10 @@
-# main menu
+# Introduction
+How (not) to use srcset and sizes. 
 
-## browser suppord
+## version history
+* **2021-04-08** Initial commit. Needs more work.
+
+## browser support
 * https://caniuse.com/?search=srcset
 
 ## srcset Usage 
