@@ -21,19 +21,21 @@ https://www.mydevice.io/
 ## srcset Usage 
 The browser has no knowlege about the dimensions of an image before it downloaded it from its source.
 
-The srcset attribute offers the browser a list of images and also tells it what width each one image will have.
+The srcset attribute offers the browser a list of images and also tells it what width each one of the is supposed to have.
 
-Depending on the current screen width and the DPR (device pixel ratio), the browser will pick one of theses images and download it. If the screen size is later changed, it will reconsider its decision. ba
+Depending on the current screen width and the DPR (Device Pixel Ratio), the browser will pick one of theses images and download it. All other pictures are ignored  If the screen size is later changed, it will reconsider its decision.
 
-### DPR
+**2do** Check what happens if this image cannot be downloaded
+
+### DPR?
 The Device Pixel Ratio is a measure of how many pixels a screen will fit into a CSS pixel (in one direction). The exact number depends on the screen:
 
 * many desktop devices have a DPR of 1, 
 * apple iMacs a device ratio of 2, and 
 * the majority of mobile devices have a DPR of 2 or higher (google nexus has a DPR of 3.5).
 
-### Example:
-This image has no default (src is empty). The browser will pick one of four images provides depending on the current screen width and the DRP of the device
+### Example 1:
+This image has no default (src is empty). Depending on the current screen width and the DRP of the screen, the browser will pick one of the images provided.
 
 ```
 <img 
